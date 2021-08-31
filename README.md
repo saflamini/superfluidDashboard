@@ -1,3 +1,11 @@
+This repo contains a simple dashboard for Superfluid payment flows using React, Web3.js, and the Superfluid JS SDK.
+
+Instructions for running the app via CRA below.
+
+Enjoy!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
