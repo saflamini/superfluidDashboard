@@ -1,0 +1,7 @@
+.balances {
+    display: grid;
+    align-items: flex-start;
+    margin-top: 1%;
+    background: #FFFFFF;
+    padding: 1%;
+}
