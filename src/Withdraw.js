@@ -23,7 +23,7 @@ class Withdraw extends Component {
 
     handleSubmit(evt) {
         evt.preventDefault();
-        this.props.withdraw(new BigNumber(this.state.withdraw).shiftedBy(18));
+        this.props.withdraw(new BigNumber(this.state.withdraw).shiftedBy(18).toString());
         this.setState({withdraw: ""})
     }
 
