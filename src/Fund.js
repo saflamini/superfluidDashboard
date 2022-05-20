@@ -25,7 +25,7 @@ class Fund extends Component {
 
     handleSubmit(evt) {
         evt.preventDefault();
-        this.props.funding(new BigNumber(this.state.funding).shiftedBy(18));
+        this.props.funding(new BigNumber(this.state.funding).shiftedBy(18).toString());
         this.setState({funding: ""})
     }
 
