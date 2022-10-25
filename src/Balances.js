@@ -35,7 +35,7 @@ class Balances extends Component {
             {this.props.fUSDCxBal == 0?
                 <Card className="balances">
                    <div >
-                        <h5>SuperToken USDCx Balance </h5>
+                        <h5>USDCx Balance </h5>
                         <h2>$0.00</h2>
                    </div>
                    </Card>
